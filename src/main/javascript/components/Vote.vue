@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import Member from '../models/Member';
+import Member from '@/models/Member';
 
 @Component
 export default class Vote extends Vue {
